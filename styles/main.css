@@ -1,0 +1,87 @@
+:root {
+  --cmc-teal: #04a0aa;
+  --cmc-light-teal: #58e7f5;
+  --med-pink: #e996a9;
+  --neutral-green: #e2f2d2;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  font-display: swap;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  src: url("/fonts/SpaceMono-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Space Mono";
+  font-display: swap;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: italic;
+  src: url("/fonts/SpaceMono-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Space Mono";
+  font-display: swap;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  src: url("/fonts/SpaceMono-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Space Mono";
+  font-display: swap;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: italic;
+  src: url("/fonts/SpaceMono-BoldItalic.woff2") format("woff2");
+}
+
+html {
+  background: white;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  max-width: 45rem;
+  margin: 1rem auto 3rem;
+  padding-inline: 1rem;
+}
+
+a:visited {
+  color: blue;
+}
+
+img {
+  max-width: 100%;
+  width: 35rem;
+  height: auto;
+}
+
+.homepage-nav ul {
+  font-size: 1.2rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.subtitle {
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  color: white;
+  background-color: var(--cmc-teal);
+  box-shadow: 2px 2px var(--cmc-light-teal);
+  text-align: center;
+}
+
+.email-obf {
+  display: none;
+}
+
+.homepage-h1 {
+  text-shadow: 2px 2px var(--cmc-light-teal);
+}
